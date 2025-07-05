@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+    <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 p-4 transition-colors">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl w-full">
           {/* Left Column */}
